@@ -4,51 +4,34 @@ This project was developed as part of a pre-hackathon assignment for the Level S
 
 The primary goal is to leverage AI-powered insights and cloud database operations to provide actionable feedback on social media post performance.
 
+# 🚀 Deployment
+Website URL: https://socialmediaanalysis.streamlit.app/
+Platform: streamlit
+Status: Active
+
 # Key feature
 Fetch Engagement Data:
 
-Created a simulated dataset of social media engagement, including metrics such as likes, shares, and comments for various post types (e.g., carousel, reels, static images).
-Stored this dataset in DataStax Astra DB, a cloud-native NoSQL database for efficient querying and analytics.
+Simulated social media dataset with metrics like likes, shares, and comments.
+Stored the dataset in DataStax Astra DB for efficient querying and analytics.
 Analyze Post Performance:
 
-Built a Langflow workflow to query the Astra DB dataset.
-Calculated average engagement metrics for each post type.
+Built a Langflow workflow to query Astra DB.
+Calculated average engagement metrics for different post types.
 Generate Insights:
 
-Integrated GPT-powered Langflow workflows to generate natural language insights based on the analyzed data.
-Examples of insights include:
-Carousel posts have 20% higher engagement than static posts.
-Reels drive 2x more comments compared to other formats.
-Tech Stack and Tools Used
-Langflow
+Integrated GPT-powered Langflow workflows for natural language insights.
+Example Insights:
+Carousel posts: 20% higher engagement than static posts.
+Reels: Drive 2x more comments than other formats.
+Tech Stack and Tools Used:
 
-A no-code tool used to design workflows for integrating GPT-based insights.
-Enabled the creation of automated analytics and insight generation pipelines.
-DataStax Astra DB
+Langflow: No-code tool for designing GPT-integrated workflows.
+DataStax Astra DB: Scalable NoSQL database for data storage and queries.
+Streamlit: Interactive front-end to display real-time insights.
+Generative AI (GPT): Analyzed trends and delivered user-friendly insights.
+How It Works:
 
-A cloud-native NoSQL database is used to store and query the engagement dataset.
-Provides scalable, high-performance database solutions suitable for analytics.
-Streamlit
-
-Used for creating an interactive front-end interface.
-Displays insights in real-time with options to interact with the data.
-Generative AI (GPT)
-
-Leveraged GPT integration within Langflow to analyze trends and provide user-friendly insights.
-How It Works
-Data Simulation and Storage:
-A small mock dataset was created to represent engagement metrics across post types. This data was uploaded to DataStax Astra DB.
-
-Langflow Workflow:
-
-Designed a workflow that accepts user input (post types) and queries the Astra DB dataset.
-Langflow generates automated insights by processing the query results with GPT.
-Insight Generation:
-
-The insights provide valuable information on post-performance trends, helping users optimize their content strategy.
-Demo Video
-As part of the submission, a demo video showcases:
-
-The Langflow workflow design.
-DataStax Astra DB's role is to store and query the dataset.
-How GPT integration generates actionable insights.
+Data Simulation and Storage: Created a mock dataset uploaded to Astra DB.
+Langflow Workflow: Designed to accept user input, query Astra DB, and process results with GPT.
+Insight Generation: Delivered post-performance trends to optimize content strategy.
