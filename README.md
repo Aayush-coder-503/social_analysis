@@ -16,4 +16,4 @@ Generate Insights: Integrated GPT-powered workflows to deliver natural language 
 Tech Stack: Utilized Langflow for no-code GPT workflows, Astra DB for scalable storage, Streamlit for real-time insights, and GPT for trend analysis.
 Workflow: Simulated data storage, queried via Langflow, and processed results with GPT to optimize content strategies.
 # 🖥️ Demo
-![WhatsApp Image 2025-01-03 at 21 26 19](https://github.com/user-attachments/assets/4e774edd-4d3a-482b-880b-825e4178baac)
+![linkedin](https://github.com/user-attachments/assets/d5317d66-85a8-432e-bff4-c93a0340e45b)
