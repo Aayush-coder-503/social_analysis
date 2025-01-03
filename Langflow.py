@@ -1,7 +1,5 @@
 import requests
 from typing import Optional
-import os
-
 BASE_API_URL = "https://api.langflow.astra.datastax.com"
 LANGFLOW_ID = "004b8f6a-4ab4-4e79-bbcf-e822281fd951"
 APPLICATION_TOKEN = "AstraCS:xbIaSnPrzfgBqEeYEoqWBuvj:d6d7e4fc1b3346237ff6ff87292241eba14b0681e04cafa083ea80bc971688f1"
