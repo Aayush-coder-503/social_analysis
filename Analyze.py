@@ -25,3 +25,13 @@ def analyze():
 
 if st.button("Analyze"):
     analyze()
+
+# Add a red-colored note below the button
+st.markdown(
+    """
+    <div style="color: red; font-weight: bold; margin-top: 20px;">
+        Note: We are using a free API key for vector embedding and for LLM. Token can reach its limit.
+    </div>
+    """,
+    unsafe_allow_html=True
+)
